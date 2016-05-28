@@ -1,44 +1,42 @@
 # Tony-weather 
 
-# Tony-weather 
-
-1. index.html
-build basic HTML structre.
-ng-app = 'weatherApp'// make it as an Angular document.
-put Css, Script in the <head>
-put navbar, ng-view in the <body>
-
-2. app.js
-var weather = angular.module('weatherApp', ['ngRoute', 'ngResource']);
-
-3. route.js
-weatherApp.config(['$routeProvider', function($routeProvider){
-	$routeProvider
-		.when('/', {
-			templateUrl: '../pages/home/html',
-			controller: 'homeController'
-		})
-}])
-
-4. controller.js
-controll service.js and directive.js
-
-5. service.js
-build cityService, weatherService 
-get API
-
-6. directive.js
-weatherApp.directive('weatherResults', function(){
-	return {
-		restrict: 'E', 
-		templateUrl: '../directives/weatherResults.html',
-		repalce: true,
-		scope: {
-			weatherDay: '=',
-			convertToStandard: '&',
-			convertToDate: '&',
-			dateFormat: '@'
-		}
-	}
-});
-
+1. index.html								<br>
+build basic HTML structre.						<br>
+ng-app = 'weatherApp'// make it as an Angular document.			<br>
+put Css, Script in the <head>						<br>
+put navbar, ng-view in the <body>					<br>
+					<br>
+2. app.js					<br>
+var weather = angular.module('weatherApp', ['ngRoute', 'ngResource']);					<br>
+					<br>
+3. route.js					<br>
+weatherApp.config(['$routeProvider', function($routeProvider){					<br>
+	$routeProvider					<br>				 
+		.when('/', {					<br>					<br>
+			templateUrl: '../pages/home/html',					<br>
+			controller: 'homeController'					<br>
+		})					<br>
+}])					<br>
+					<br>
+4. controller.js					<br>
+controll service.js and directive.js					<br>
+					<br>
+5. service.js					<br>					<br>
+build cityService, weatherService 					<br>
+get API									<br>	<br>
+					<br>
+6. directive.js					<br>
+weatherApp.directive('weatherResults', function(){					<br>
+	return {					<br>
+		restrict: 'E', 					<br>
+		templateUrl: '../directives/weatherResults.html',					<br>
+		repalce: true,					<br>
+		scope: {					<br>
+			weatherDay: '=',					<br>
+			convertToStandard: '&',					<br>
+			convertToDate: '&',					<br>
+			dateFormat: '@'					<br>
+		}					<br>
+	}					<br>
+});					<br>
+					<br>
