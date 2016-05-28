@@ -12,7 +12,7 @@ var weather = angular.module('weatherApp', ['ngRoute', 'ngResource']);					<br>
 3. route.js					<br>
 weatherApp.config(['$routeProvider', function($routeProvider){					<br>
 	$routeProvider					<br>				 
-		.when('/', {					<br>					<br>
+		.when('/', {					<br>				 
 			templateUrl: '../pages/home/html',					<br>
 			controller: 'homeController'					<br>
 		})					<br>
@@ -21,9 +21,9 @@ weatherApp.config(['$routeProvider', function($routeProvider){					<br>
 4. controller.js					<br>
 controll service.js and directive.js					<br>
 					<br>
-5. service.js					<br>					<br>
+5. service.js					<br>				 
 build cityService, weatherService 					<br>
-get API									<br>	<br>
+get API									<br> 
 					<br>
 6. directive.js					<br>
 weatherApp.directive('weatherResults', function(){					<br>
