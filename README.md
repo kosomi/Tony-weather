@@ -1,5 +1,7 @@
 # Tony-weather 
 
+앵귤러 기초부터 가르쳐주고 있지만 중요한 개념들을 다루기 때문에 어렵다. 
+
 1. index.html								<br>
 build basic HTML structre.						<br>
 ng-app = 'weatherApp'// make it as an Angular document.			<br>
