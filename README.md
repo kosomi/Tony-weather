@@ -24,7 +24,7 @@ weatherApp.config(['$routeProvider', function($routeProvider){
 controll service.js and directive.js
 
 5. service.js
-build cityService, weatherService
+build cityService, weatherService 
 get API
 
 6. directive.js
