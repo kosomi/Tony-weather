@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myApp'>
+<style>
+body {
+    padding:40px;
+}
+div{
+    font-size:19px;
+    font-weight: bold;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js">
+</head>
+<body>
+
+<h1 ng-controller="HelloWorldCtrl">
+    {{helloMessage}}
+</h1>
+     
+<script>
+var myapp = angular.module('myApp', []);
+myapp.controller('HelloWorldCtrl', function($scope){
+    $scope.helloMessage = 'Hello World';
+})
+ 
+</script>
+
+</body>
+</html> 
