@@ -1,7 +1,7 @@
 # Tony-weather 
 
-앵귤러 기초부터 가르쳐주고 있지만 중요한 개념들을 다루기 때문에 어렵다. 
-[05272016] Udemy - Learn and Understand AngularJS
+앵귤러 기초부터 가르쳐주고 있지만 중요한 개념들을 다루기 때문에 어렵다. 	<br>
+[05272016] Udemy - Learn and Understand AngularJS	<br>
 
 1. index.html								<br>
 build basic HTML structre.						<br>
